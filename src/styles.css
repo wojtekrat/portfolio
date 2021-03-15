@@ -230,5 +230,23 @@ a {
     .logo {
         display: none;
     }
+    #contact h2 {
+        font-size: 35px;
+    }
 
+    #contact p {
+        font-size: 25px;
+    }
+    .headshot {
+        width: 200px;
+    }
+    .information p {
+        font-size: 25px;
+    }
+    .hero-text h1 {
+        font-size: 60px;
+    }
+    .hero-text p {
+        font-size: 30px
+    }
 }
