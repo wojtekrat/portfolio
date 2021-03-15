@@ -260,4 +260,8 @@ a {
     .social {
         margin: 2px; 
     }
+
+    .sub-section-alt {
+        padding: 40px;   
+    }
 }
