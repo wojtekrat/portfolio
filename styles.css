@@ -253,4 +253,7 @@ a {
         margin-left: 10px;
         margin-bottom: 100px;
     }
+    .social {
+        margin: 2px; 
+    }
 }
