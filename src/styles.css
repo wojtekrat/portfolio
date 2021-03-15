@@ -2,6 +2,22 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 70%;
+    }
+  
+    to {
+      margin-left: 1%;
+    }
+  }
+
 section {
     background-color: white;
 }
@@ -30,7 +46,7 @@ ul {
     list-style-type: none;
     width: 500px;
     justify-content: space-around;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 ul.show {
@@ -41,6 +57,10 @@ ul.show {
 li {
     text-decoration: none;
 
+}
+
+.links:hover {
+    color:#ef744b;
 }
 
 h1 {
@@ -107,6 +127,10 @@ p {
 
 .social {
     margin: 20px;
+}
+
+.icon:hover {
+    transform: rotate(10deg)
 }
 
 .sub-section {
