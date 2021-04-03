@@ -6,3 +6,8 @@ function toggleButton(){
 }
 
 hamburgerButton.addEventListener('click', toggleButton)
+
+$('.skill-percent').each(function(){
+    $(this).animate({
+      width:$(this).attr('data-percent')},1600);
+    });

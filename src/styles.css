@@ -265,3 +265,48 @@ a {
         padding: 40px;   
     }
 }
+
+#skills {
+    padding: 20px 15px 75px 15px;
+    color: black;
+  }
+  
+  .skills-text {
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+  }
+  
+  .skills-title {
+    display: block;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-list {
+    overflow: hidden;
+    position: relative;
+    z-index: 10
+  }
+  
+  .skill-name:after {
+    background-color: #999797;
+    content: '';
+    display: block;
+    height:1rem;
+    position: relative;
+    top: 3px;
+    width: 100%;
+  }
+  
+  .skill-percent {
+    font-size: 0;
+    height: 1rem;
+    position: relative;
+    top: -.8rem;
+    transition: 3s linear;
+    width: 0;
+    background-color: #1c1d25;
+  }
+  
+  
