@@ -22,15 +22,31 @@ section {
     background-color: white;
 }
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .hero {
-    background-color: #1c1d25;
     height: 100vh;
     color: white;
     font-size: 40px;
+    background: linear-gradient(-45deg, #252525, #e73c7e, #3c3fec, #252525);
+	background-size: 300% 300%;
+	animation: gradient 15s ease infinite;
 }
 
+
+
 footer {
-    background-color: black;
+    background-color: #3c3fec;
     color: white;
     text-align: center;
     padding: 80px;
@@ -60,7 +76,7 @@ li {
 }
 
 .links:hover {
-    color:#ef744b;
+    color:#5c5857;
 }
 
 h1 {
@@ -98,7 +114,7 @@ p {
 .button {
     width: 200px;
     height: 55px;
-    background-color: coral;
+    background-color: #74706f;
     border-radius: 30px;
     text-align: center;
     font-size: 30px;
@@ -108,7 +124,7 @@ p {
 }
 
 .button:hover {
-    background-color: #ef744b;
+    background-color: #5c5857;
 }
 
 .button:active {
@@ -137,6 +153,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 60px;
+    border-bottom: 1px #e7e8fa outset;
 }
 
 .sub-section-alt {
@@ -144,6 +161,9 @@ p {
     text-align: center;
     flex-direction: column;
     padding: 80px;   
+    border-bottom: 1px #e7e8fa outset;
+    
+
 }
 
 .headshot {
@@ -155,6 +175,7 @@ p {
     display: flex;
     align-items: center;
 }
+
 
 .project-card {
     width: 300px;
@@ -267,7 +288,7 @@ a {
 }
 
 #skills {
-    padding: 20px 15px 75px 15px;
+    padding: 0;
     color: black;
   }
   
@@ -286,27 +307,28 @@ a {
   .skills-list {
     overflow: hidden;
     position: relative;
-    z-index: 10
+    z-index: 10;
   }
   
   .skill-name:after {
     background-color: #999797;
     content: '';
     display: block;
-    height:1rem;
+    height: 20px;
     position: relative;
-    top: 3px;
+    top: 7px;
     width: 100%;
   }
   
   .skill-percent {
     font-size: 0;
-    height: 1rem;
+    height: 20px;
     position: relative;
     top: -.8rem;
     transition: 3s linear;
     width: 0;
-    background-color: #1c1d25;
+    background-color: #ca4075;
+    margin-left: 0;
   }
   
   
