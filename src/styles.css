@@ -46,7 +46,7 @@ section {
 
 
 footer {
-    background-color: #3c3fec;
+    background-color: #999797;
     color: white;
     text-align: center;
     padding: 80px;
@@ -76,7 +76,7 @@ li {
 }
 
 .links:hover {
-    color:#5c5857;
+    color:#ee57c8;
 }
 
 h1 {
@@ -85,7 +85,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px
+    font-size: 45px
 }
 
 p {
@@ -124,11 +124,11 @@ p {
 }
 
 .button:hover {
-    background-color: #5c5857;
+    background-color: #ee57c8;
 }
 
 .button:active {
-    background-color: rgb(101, 180, 101);
+    background-color: rgb(125, 176, 206);
     color: lightgreen;
 }
 
@@ -153,7 +153,7 @@ p {
     display: flex;
     justify-content: space-around;
     padding: 60px;
-    border-bottom: 1px #e7e8fa outset;
+    border-bottom: 1px #e7e8fa dashed;
 }
 
 .sub-section-alt {
@@ -161,7 +161,7 @@ p {
     text-align: center;
     flex-direction: column;
     padding: 80px;   
-    border-bottom: 1px #e7e8fa outset;
+    border-bottom: 1px #e7e8fa dashed;
     
 
 }
@@ -238,14 +238,14 @@ a {
 
     ul {
         display: none;
-        background-color: #33343f;
+        background-color: transparent;
         margin: 0p;
     }
 
     nav {
         display: flex;
         flex-direction: column-reverse;
-        background-color: #33343f;
+        background-color: transparent;
     }
 
     .logo {
@@ -285,6 +285,10 @@ a {
     .sub-section-alt {
         padding: 40px;   
     }
+
+    h2 {
+        font-size: 30px;
+    }
 }
 
 #skills {
@@ -302,6 +306,10 @@ a {
   .skills-title {
     display: block;
     margin-bottom: 2rem;
+  }
+
+  .skills-title p {
+      font-size: 20px;
   }
   
   .skills-list {
