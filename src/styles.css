@@ -90,7 +90,7 @@ h2 {
 
 p {
     margin: 0;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 300;
 }
 
@@ -165,7 +165,22 @@ p {
     
 
 }
+/*about me section*/
+#about-me {
+    padding: 60px;
+    border-bottom: 1px #e7e8fa dashed;
+    display: grid;
+    grid-template-areas: "aboutme1 aboutme2";   
+}
 
+#aboutme1 {
+    grid-area: aboutme1;
+}
+
+#aboutme2 {
+    grid-area: aboutme2;
+    margin: 0 auto;
+}
 .headshot {
     width: 300px;
     border-radius: 150px;
@@ -176,7 +191,7 @@ p {
     align-items: center;
 }
 
-
+/*project section*/
 .project-card {
     width: 300px;
     height: 500px;
@@ -189,7 +204,7 @@ p {
     justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1300px) {
     .project-container {
         display: flex;
         flex-wrap: wrap;
@@ -225,7 +240,7 @@ a {
     outline: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .hamburger {
         display: block;
         border: 0;
@@ -288,6 +303,16 @@ a {
 
     h2 {
         font-size: 30px;
+    }
+    .skills-text p{
+        font-size: 16px;
+    }
+    .skill-name {
+        font-size: 14px;
+    }
+    #about-me {
+        grid-template-areas: "aboutme2"
+                            "aboutme1";   
     }
 }
 
